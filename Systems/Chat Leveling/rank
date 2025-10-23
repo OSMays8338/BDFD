@@ -1,0 +1,26 @@
+Notes: 
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+You can use this command to show the rank card of a user. Mention a user to see their rank card, or run the command without mentioning anyone to see your own rank card.
++
+You can customize the background by changing the URL in the "custombg" parameter in the image URL.
+The current XP & embed color is set to match the color of the user's highest role in the server.
+≠≠≠≠≠≠≠≠≠
+
+
+Trigger:
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+level
+≠≠≠≠≠≠≠≠≠
+
+Variables:
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+currentxp: 0
+nextlevelxp: 100
+level: 0
+≠≠≠≠≠≠≠≠≠
+
+Code
+≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠
+
+$nomention
+$image[https://vacefron.nl/api/rankcard?username=$replaceText[$username[$mentioned[1;yes]]; ;%20;-1]&avatar=$userAvatar[$mentioned[1;yes]]?size=1024&level=$getUserVar[level;$mentioned[1;yes]]&rank=$getUserVar[rank;$mentioned[1;yes]]%20Rank&currentxp=$getUserVar[currentxp;$mentioned[1;yes]]&nextlevelxp=$getUserVar[nextlevelxp;$mentioned[1;yes]]&previouslevelxp=0&custombg=https://gyazo.com/a66786242d31a1d59b5fecc9a957bde1.jpeg&xpcolor=$getRoleColor[$highestRole[$authorID]]]
