@@ -1,22 +1,22 @@
 # BDFD System
 
-Sets of Commands to help build your BDFD bot. <br>
+Sets of Commands to help build your BDFD bot. <br><br><br>
 
 
 Each file contains:<br>
-• Notes
-• Trigger
-• Variables
-• Code
+• Notes<br>
+• Trigger<br>
+• Variables<br>
+• Code<br>
+<br><br>
 
-
-Features
-• Administrator 
-• Moderation 
-• Chat Leveling System 
-• Economy 
-• Bank
-• Store
-• Tag System 
-&
+Features<br>
+• Administrator <br>
+• Moderation <br>
+• Chat Leveling System<br> 
+• Economy <br>
+• Bank<br>
+• Store<br>
+• Tag System <br>
+&<br>
 MORE TO COME 
